@@ -1,1 +1,1 @@
-Relogio digital feito com HTML, CSS e JS.
+Player de video feito com HTML, CSS e JS.
