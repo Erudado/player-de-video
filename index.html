@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Link bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Player de Video</title>
+</head>
+<body>
+
+    <div class="central">
+        <button id="botao">
+            <i class="fa fa-pause"></i> Pause
+        </button>
+        <button id="botaoback">
+            <i class="fa fa-backward"></i>
+        </button>
+        <button id="botaofoward">
+            <i class="fa fa-forward"></i>
+        </button>
+        <button id="botaostop">
+            <i class="fa fa-stop"></i>
+        </button>
+        <button id="botaoplus10">
+            <i class="fa fa-plus"></i> 10s
+        </button>
+        <button id="botaominus10">
+            <i class="fa fa-minus"></i> 10s
+        </button>
+
+        <video src="video/opvideo.mp4" autoplay loop muted id="video"></video>  
+        <div class="conteudo">
+            <h2>One Piece</h2>
+            <p>A série foca em Monkey D. Luffy, um jovem feito de borracha, que, inspirado em seu ídolo de infância, o poderoso pirata Shanks, o Ruivo, parte em uma jornada do mar do East Blue para encontrar o tesouro mítico, o One Piece, e proclamar-se o Rei dos Piratas.</p>
+        </div>
+    </div>
+
+
+    <!--Link JS-->
+    <script src="js/video.js"></script>
+</body>
+</html>
